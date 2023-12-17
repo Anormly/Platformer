@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Game</title>
+</head>
+
+<body>
+    <div id="canvas" oncontextmenu="return false;">
+        <div id="img-background">
+            
+        </div>
+        <div id="final-timer-canvas">
+            <p id="final-timer-text"></p>
+        </div>
+        <img src="images/fullscreen.png" id="fsBtn" />
+        <img src="images/refresh.png" id="restartBtn" />
+        <div id="img-block" style="
+            width: 64px;
+            height: 64px;
+            overflow: hidden;
+            position: absolute;
+            left: 0px;
+            bottom: 48px;
+            ">
+            <img src="Sprites/hero-sprite.png" id="hero-img" style="
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                transform: scale(1,1);" />
+        </div>
+    </div>
+    <p id="info"></p>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:wght@300;400;500;600;700;800&family=Press+Start+2P&display=swap');
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>

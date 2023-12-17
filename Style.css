@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+#fsBtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#canvas {
+    background-color: rgb(224, 224, 224);
+    width: 100%;
+}
+
+#info {
+    display: none;
+    position: absolute;
+    left: 64px;
+    top: 96px;
+    background-color: black;
+    color: white;
+    font-size: 16pt;
+}
+
+#final-timer-text {
+    position: absolute;
+    font-family: 'Bungee Spice', cursive;
+    font-size: 100pt;
+    text-align: center;
+    width: 100%;
+}
+#restartBtn {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
